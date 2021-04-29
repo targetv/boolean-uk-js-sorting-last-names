@@ -6,7 +6,7 @@ const lastName = names.push(prompt("What is your last name?"));
 // - Have an output that has the names sorted alphabetically
 names.sort();
 // - Have an output that tells you what is the position of your name in the sorted array
-let postion = names.indexOf(lastName);
+let position = names.indexOf(lastName);
 
 // - Have an output that Uppercase's all names in the array
 for (let i = 0; i < names.length; i++) {
@@ -17,4 +17,4 @@ for (let i = 0; i < names.length; i++) {
 //   console.log([name, name.toUpperCase()]);
 // }
 
-console.log(postion);
+console.log("Your postion is: ", position + 1);
